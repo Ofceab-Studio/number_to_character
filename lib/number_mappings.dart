@@ -1,14 +1,13 @@
 class NumberMappings {
-
   var mappings;
-  NumberMappings(String lang){
-    if(lang=='en'){
+  NumberMappings(String lang) {
+    if (lang == 'en') {
       this.mappings = mappingsEn;
-    }else if(lang=='fr'){
+    } else if (lang == 'fr') {
       this.mappings = mappingsFr;
-    }else if(lang=='ar'){
+    } else if (lang == 'ar') {
       this.mappings = mappingsAr;
-    }else if(lang=='es'){
+    } else if (lang == 'es') {
       this.mappings = mappingsEs;
     }
   }
@@ -53,7 +52,7 @@ class NumberMappings {
   };
 
   var mappingsFr = {
-    1: 'une',
+    1: 'un',
     2: 'deux',
     3: 'trois',
     4: 'quatre',
@@ -99,11 +98,11 @@ class NumberMappings {
     5: "خمسة",
     6: "ستة",
     7: "سبعة",
-    8: "ثمانية" ,
+    8: "ثمانية",
     9: "تسعة",
     10: "عشرة",
-    11: "أحد عشر" ,
-    12: "اثنا عشر" ,
+    11: "أحد عشر",
+    12: "اثنا عشر",
     13: "ثلاثة عشر",
     14: "أربعة عشر",
     15: "خمسة عشر",
@@ -111,14 +110,14 @@ class NumberMappings {
     17: "سبعة عشر",
     18: "ثمانية عشر",
     19: "تسعة عشر",
-    20:" عشرون",
-    30:" ثلاثون",
+    20: " عشرون",
+    30: " ثلاثون",
     40: "أربعون",
-    50:"خمسون",
-    60:"ستين",
+    50: "خمسون",
+    60: "ستين",
     70: "سبعون",
     80: "ثمانون",
-    90: "تسعون" ,
+    90: "تسعون",
     0: 'و',
     999999999: 'فاصل',
     100: 'مائة',
@@ -129,7 +128,6 @@ class NumberMappings {
     10000000: 'كوادريليون',
     100000000: 'كوينتريليون',
   };
-
 
   var mappingsEs = {
     1: 'uno',
@@ -169,6 +167,4 @@ class NumberMappings {
     10000000: 'cuatrillón',
     100000000: 'quintrillón',
   };
-
-
 }
